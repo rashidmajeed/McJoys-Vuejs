@@ -1,9 +1,9 @@
 <template>
   <div class="container menu_container">
-    <div class="top">
+    <div class="top" v-scroll-reveal.reset>
       <h2>mcjoys Menu</h2>
     </div>
-    <div class="buttons">
+    <div class="buttons" v-scroll-reveal.reset="{display:250}">
       <md-button
         v-for="(button, index) in buttons"
         :key="index"
@@ -11,7 +11,7 @@
         :class="button.active ? 'md-raised':'' "
       >{{button.title}}</md-button>
     </div>
-    <div class="products-list">
+    <div class="products-list" v-scroll-reveal.reset="{display:500}">
       <md-card
       v-for="(product, index) in products"
       :key="index"
