@@ -29,7 +29,7 @@ import { Carousel, Slide } from "vue-carousel";
 import slideBgImage1 from "../../assets/images/slide_bck.jpg";
 import slideBgImage2 from "../../assets/images/slide_bck2.jpg";
 
-import bigDeal from "../../assets/images/burger-pizza-deal.png";
+import bigDeal from "../../assets/images/pizza-deal.gif";
 import animImg from "../../assets/images/giphy.gif";
 
 import emojiJoy from "../../assets/images/happy.gif";

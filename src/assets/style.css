@@ -21,11 +21,8 @@ body {
 ==================================*/
 
 header {
-  background-image: radial-gradient(
-    circle farthest-corner at 26.1% 48.9%,
-    rgb(156, 52, 13) 0%,
-    rgba(255, 176, 100, 1) 90.1%
-  );
+  background: 
+    rgba(255, 176, 100, 1) 90.1%;
   padding: 30px 0px 10px 0px;
 }
 
@@ -105,6 +102,42 @@ header .side-drawer {
     text-align: center;
     border-bottom: 1px solid #1a1a4b;
     margin-bottom: 40px;
+}
+
+/*================================
+            INQUIRY CONTAINER
+==================================*/
+
+.inquiry_container {
+  background: #b32d00;
+  text-align: center;
+  margin: 110px 0px;
+  padding: 40px 0px 70px 0px;
+}
+
+.inquiry_container  .first {
+  padding: 20px 0px;
+}
+.inquiry_container  .first h2 {
+  font-size: 60px;
+  margin: 0px;
+  line-height: 150px;
+  color:#fff;
+}
+
+.inquiry_container .second  {
+  height:200px;
+}
+
+.inquiry_container .third {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150px;
+  color:#fff;
+}
+
+.inquiry_container .third span:first-child {
+  color: #171717;
 }
 
 
